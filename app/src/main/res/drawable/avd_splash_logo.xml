@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_splash_logo_vector">
+
+    <target
+        android:name="splash_primary_puff"
+        android:animation="@animator/splash_puff_entrance" />
+
+    <target
+        android:name="splash_secondary_puffs"
+        android:animation="@animator/splash_secondary_drift" />
+</animated-vector>

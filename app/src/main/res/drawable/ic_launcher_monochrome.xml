@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Clean Material You monochrome themed icon inside the 66dp safe zone (21..87) -->
+
+    <!-- Sweeping storm wind arc -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M25,62.5 C38,54.5 55,65.5 83,52.5 C71,65.5 49,68.5 25,62.5 Z" />
+
+    <!-- Primary snow puff -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M46,50.5m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0" />
+
+    <!-- Secondary upper-right snow puff -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M67.5,41.5m-7.5,0a7.5,7.5 0,1 1,15 0a7.5,7.5 0,1 1,-15 0" />
+
+    <!-- Tertiary lower-right snow puff -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M64,65.5m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+
+    <!-- Distant snow puff dots -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34.5,66.5m-3.6,0a3.6,3.6 0,1 1,7.2 0a3.6,3.6 0,1 1,-7.2 0" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M53.5,33.5m-3.2,0a3.2,3.2 0,1 1,6.4 0a3.2,3.2 0,1 1,-6.4 0" />
+</vector>

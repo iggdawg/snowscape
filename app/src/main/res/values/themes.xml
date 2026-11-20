@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Material Design 3 Splash Screen theme using AndroidX Core SplashScreen -->
+    <style name="Theme.Snowscape.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/avd_splash_logo</item>
+        <item name="windowSplashScreenAnimationDuration">560</item>
+        <item name="postSplashScreenTheme">@style/Theme.Snowscape</item>
+    </style>
+
+    <!-- Main application theme matching the dark winter storm backdrop -->
+    <style name="Theme.Snowscape" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/splash_background</item>
+    </style>
+
+</resources>

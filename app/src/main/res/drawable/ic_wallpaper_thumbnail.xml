@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="192dp"
+    android:viewportWidth="108"
+    android:viewportHeight="192">
+
+    <!-- Deep winter storm night sky -->
+    <path
+        android:fillColor="#0E1D33"
+        android:pathData="M0,0h108v192h-108z" />
+
+    <!-- Lower storm glow -->
+    <path
+        android:fillAlpha="0.55"
+        android:fillColor="#27476A"
+        android:pathData="M0,86h108v106h-108z" />
+
+    <!-- Horizon snow mist -->
+    <path
+        android:fillAlpha="0.45"
+        android:fillColor="#4E789E"
+        android:pathData="M0,136h108v56h-108z" />
+
+    <!-- Sweeping abstract storm wind ribbons -->
+    <path
+        android:fillAlpha="0.24"
+        android:fillColor="#7EB2DC"
+        android:pathData="M-12,38 C24,24 68,54 120,34 L120,66 C68,84 24,56 -12,70 Z" />
+
+    <path
+        android:fillAlpha="0.28"
+        android:fillColor="#98C8EE"
+        android:pathData="M-12,92 C28,74 72,108 120,86 L120,122 C72,144 28,112 -12,126 Z" />
+
+    <path
+        android:fillAlpha="0.22"
+        android:fillColor="#B8DCFA"
+        android:pathData="M-12,144 C30,130 78,158 120,142 L120,174 C78,188 30,164 -12,176 Z" />
+
+    <!-- Abstract snow puffs (layered halos and soft cores) -->
+    <!-- Large foreground bokeh puff -->
+    <path
+        android:fillAlpha="0.22"
+        android:fillColor="#D9EEFF"
+        android:pathData="M26,134m-15,0a15,15 0,1 1,30 0a15,15 0,1 1,-30 0" />
+    <path
+        android:fillAlpha="0.38"
+        android:fillColor="#FFFFFF"
+        android:pathData="M26,134m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0" />
+
+    <!-- Midground puffs -->
+    <path
+        android:fillAlpha="0.34"
+        android:fillColor="#D9EEFF"
+        android:pathData="M74,64m-9,0a9,9 0,1 1,18 0a9,9 0,1 1,-18 0" />
+    <path
+        android:fillAlpha="0.82"
+        android:fillColor="#FFFFFF"
+        android:pathData="M74,64m-4.5,0a4.5,4.5 0,1 1,9 0a4.5,4.5 0,1 1,-9 0" />
+
+    <path
+        android:fillAlpha="0.32"
+        android:fillColor="#D9EEFF"
+        android:pathData="M34,50m-7,0a7,7 0,1 1,14 0a7,7 0,1 1,-14 0" />
+    <path
+        android:fillAlpha="0.78"
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,50m-3.5,0a3.5,3.5 0,1 1,7 0a3.5,3.5 0,1 1,-7 0" />
+
+    <path
+        android:fillAlpha="0.36"
+        android:fillColor="#D9EEFF"
+        android:pathData="M80,122m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0" />
+    <path
+        android:fillAlpha="0.85"
+        android:fillColor="#FFFFFF"
+        android:pathData="M80,122m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+
+    <path
+        android:fillAlpha="0.30"
+        android:fillColor="#D9EEFF"
+        android:pathData="M54,96m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+    <path
+        android:fillAlpha="0.75"
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,96m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+
+    <!-- Distant snow puffs -->
+    <path
+        android:fillAlpha="0.55"
+        android:fillColor="#EAF6FF"
+        android:pathData="M18,26m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0" />
+    <path
+        android:fillAlpha="0.50"
+        android:fillColor="#EAF6FF"
+        android:pathData="M88,30m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+    <path
+        android:fillAlpha="0.45"
+        android:fillColor="#EAF6FF"
+        android:pathData="M22,88m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+    <path
+        android:fillAlpha="0.60"
+        android:fillColor="#EAF6FF"
+        android:pathData="M62,162m-3.5,0a3.5,3.5 0,1 1,7 0a3.5,3.5 0,1 1,-7 0" />
+</vector>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- All visual marks stay inside the 66dp Material Adaptive Icon safe zone (21..87) -->
+
+    <!-- Subtle sweeping storm wind ribbon behind the snow puffs -->
+    <path android:pathData="M24,62 C36,52 54,66 84,52 C70,66 48,68 24,62 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="24"
+                android:startY="60"
+                android:endX="84"
+                android:endY="52"
+                android:type="linear">
+                <item android:color="#18A8DCFF" android:offset="0.0" />
+                <item android:color="#78CFEAFF" android:offset="0.5" />
+                <item android:color="#22A8DCFF" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Ambient bokeh halo behind hero snow puff -->
+    <path android:pathData="M46,51m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="46"
+                android:centerY="51"
+                android:gradientRadius="20"
+                android:type="radial">
+                <item android:color="#55C8E8FF" android:offset="0.0" />
+                <item android:color="#2290C8F5" android:offset="0.55" />
+                <item android:color="#0090C8F5" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Subtle Material elevation shadow under primary snow puff -->
+    <path
+        android:fillColor="#26040B14"
+        android:pathData="M47,54m-11.5,0a11.5,11.5 0,1 1,23 0a11.5,11.5 0,1 1,-23 0" />
+
+    <!-- Primary hero abstract snow puff (soft feathered radial glow) -->
+    <path android:pathData="M46,51m-12.5,0a12.5,12.5 0,1 1,25 0a12.5,12.5 0,1 1,-25 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="44.5"
+                android:centerY="49"
+                android:gradientRadius="13.5"
+                android:type="radial">
+                <item android:color="#FFFFFFFF" android:offset="0.0" />
+                <item android:color="#F2F0F8FF" android:offset="0.52" />
+                <item android:color="#99C4E4FF" android:offset="0.82" />
+                <item android:color="#00B0DCFF" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Secondary upper-right snow puff -->
+    <path android:pathData="M67.5,41.5m-10.5,0a10.5,10.5 0,1 1,21 0a10.5,10.5 0,1 1,-21 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="66.5"
+                android:centerY="40.5"
+                android:gradientRadius="10.8"
+                android:type="radial">
+                <item android:color="#F5FFFFFF" android:offset="0.0" />
+                <item android:color="#CCF0F8FF" android:offset="0.48" />
+                <item android:color="#66B6DEFF" android:offset="0.78" />
+                <item android:color="#00B6DEFF" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Tertiary lower-right snow puff -->
+    <path android:pathData="M64,65.5m-8.5,0a8.5,8.5 0,1 1,17 0a8.5,8.5 0,1 1,-17 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="63.2"
+                android:centerY="64.8"
+                android:gradientRadius="8.8"
+                android:type="radial">
+                <item android:color="#EEFFFFFF" android:offset="0.0" />
+                <item android:color="#B8E4F6FF" android:offset="0.50" />
+                <item android:color="#48A8DCFF" android:offset="0.80" />
+                <item android:color="#00A8DCFF" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Distant atmospheric snow puff accents -->
+    <path android:pathData="M34.5,66.5m-5.5,0a5.5,5.5 0,1 1,11 0a5.5,5.5 0,1 1,-11 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="34.5"
+                android:centerY="66.5"
+                android:gradientRadius="5.5"
+                android:type="radial">
+                <item android:color="#CCFFFFFF" android:offset="0.0" />
+                <item android:color="#66CBE8FF" android:offset="0.55" />
+                <item android:color="#00CBE8FF" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <path android:pathData="M53.5,33.5m-4.8,0a4.8,4.8 0,1 1,9.6 0a4.8,4.8 0,1 1,-9.6 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="53.5"
+                android:centerY="33.5"
+                android:gradientRadius="4.8"
+                android:type="radial">
+                <item android:color="#B8FFFFFF" android:offset="0.0" />
+                <item android:color="#55CBE8FF" android:offset="0.55" />
+                <item android:color="#00CBE8FF" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>
